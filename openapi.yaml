@@ -8,7 +8,7 @@ servers:
     description: Local development server
 
 paths:
-  /oar:
+  /:
     get:
       summary: Test HTTP route
       operationId: getOar
