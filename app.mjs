@@ -15,7 +15,7 @@ const io = new Server(server, {
     origin: "*",
     methods: ["GET", "POST"],
   },
-  path: "/socket.io/"
+  path: "/oarchat/socket.io/"
 });
 
 const dataFile = 'userData.json';
