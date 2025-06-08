@@ -29,5 +29,5 @@ endpoints:
     port: 8080
     type: REST
     networkVisibility: Public
-    context: /reading-list
+    context: /oarchat/v1.0
 
